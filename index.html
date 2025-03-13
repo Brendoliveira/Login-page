@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina Login</title>
+</head>
+<body>
+
+    
+       <a href="#" class="back"> <img src="BackButton.pnj.png" width="65" height="55" alt="Voltar"> 
+        </a>
+    
+    
+    <main class="container" id="container">
+        
+        <section class="form-container sing-in">
+            <form>
+                <h1>Logar</h1>
+            <span>Use seu email para entrar</span>
+                <input type="email" placeholder="Email" >
+                <input type="password" placeholder="Senha" >
+                <a href="#">Esqueci a senha</a>
+                <button>Logar</button>
+            </form>
+        </section>
+        <section class="form-container sing-up">
+            <form>
+                <h1>Cria conta</h1>
+                <span>Use se email para registrar</span>
+                <input type="text" placeholder="Nome" >
+                <input type="email" placeholder="Email" >
+                <input type="password" placeholder="Senha" >
+                <button>registrar</button>
+            </form>
+        </section>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem-vindo de volta</h1>
+                    <p>Inseri os seus dados</p>
+                    <button class="hidden" id="login">Entra</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Bem-vindo</h1>
+                    <p>Insira os seus dados para cria uma conta</p>
+                    <button class="hidden" id="register">Registra</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="button-container">
+          
+            <a href="https://www.google.com/?hl=pt_BR"  class="button">Acesso Direto</a>
+     
+        </div>
+    </aside>
+
+    <script src="script.js"> </script>
+</body>
+</html>
