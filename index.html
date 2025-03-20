@@ -1,65 +1,49 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Pagina Login</title>
+    <title>Brendo Queiroz - Portfólio</title>
+    <link rel="stylesheet" href="css/Inicio.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li id="inicio"><a href="index.html">Início</a></li>
+                <li><a href="Sobre-mim.html">Sobre mim</a></li>
+                <li><a href="projetos.html">Veja meus projetos</a></li>
+                <li><a href="contato.html">Entre em contato</a></li>
+                <li><button id="darkModeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
 
-    
-       <a href="#" class="back"> <img src="BackButton.pnj.png" width="65" height="55" alt="Voltar"> 
-        </a>
-    
-    
-    <main class="container" id="container">
-        
-        <section class="form-container sing-in">
-            <form>
-                <h1>Logar</h1>
-            <span>Use seu email para entrar</span>
-                <input type="email" placeholder="Email" >
-                <input type="password" placeholder="Senha" >
-                <a href="#">Esqueci a senha</a>
-                <button>Logar</button>
-            </form>
-        </section>
-        <section class="form-container sing-up">
-            <form>
-                <h1>Cria conta</h1>
-                <span>Use se email para registrar</span>
-                <input type="text" placeholder="Nome" >
-                <input type="email" placeholder="Email" >
-                <input type="password" placeholder="Senha" >
-                <button>registrar</button>
-            </form>
-        </section>
-        <div class="toggle-container">
-            <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Bem-vindo de volta</h1>
-                    <p>Inseri os seus dados</p>
-                    <button class="hidden" id="login">Entra</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Bem-vindo</h1>
-                    <p>Insira os seus dados para cria uma conta</p>
-                    <button class="hidden" id="register">Registra</button>
-                </div>
-            </div>
+    <section class="container">
+        <div class="profile">
+            <img src="photos/eu.jpg" alt="Brendo Queiroz">
+            <h2>Brendo Queiroz</h2>
+            <p>Estudante de Ciência da Computação | Tenho grande interesse em tecnologia, desenvolvimento web e inovação. Busco transformar ideias em soluções criativas e funcionais.</p>
+            <a href="pdfs/Curriculo Brendo 2025.pdf"target="_blank" class="btn">Baixar currículo</a>
         </div>
-    </main>
-    <aside>
-        <div class="button-container">
-          
-            <a href="https://www.google.com/?hl=pt_BR"  class="button">Acesso Direto</a>
-     
-        </div>
-    </aside>
 
-    <script src="script.js"> </script>
+        <div class="skills">
+            <h3>Habilidades em Destaque</h3>
+            <ul>
+                <li>🖥️ HTML</li>
+                <li>🎨 CSS</li>
+                <li>⚙️ JavaScript</li>
+                <li>💾 SQL</li>
+                <li>🛠️ C# (Básico)</li>
+            </ul>
+            <blockquote>
+                <br>
+                "A forma como as pessoas aprendem pode mudar, mas a necessidade de aprender nunca desaparecerá." – Bill Gates
+            </blockquote>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
