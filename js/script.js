@@ -8,9 +8,10 @@ document.getElementById("darkModeToggle").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
 
     // Atualiza o localStorage com a preferência do usuário
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("darkMode", "enabled");
-    } else {
-        localStorage.setItem("darkMode", "disabled");
-    }
+    // if (document.body.classList.contains("dark-mode")) {
+    //     localStorage.setItem("darkMode", "enabled");
+    // } else {
+    //     localStorage.setItem("darkMode", "disabled");
+    // }
+    localStorage.setItem("darkMode", document.body.classList.contains("dark-mode") ? "enabled" : "disabled");
 });
